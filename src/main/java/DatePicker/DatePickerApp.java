@@ -17,13 +17,13 @@ public class DatePickerApp extends Application {
 
         DatePicker datePicker = new DatePicker();
 
-        Button button = new Button("Read date");
+        Button button = new Button("Accept");
 
         button.setOnAction(action -> {
             LocalDate value = datePicker.getValue();
         });
 
-        HBox hbox = new HBox(datePicker);
+        HBox hbox = new HBox(datePicker, button);
 
         Scene scene = new Scene(hbox, 300, 240);
         primaryStage.setScene(scene);
