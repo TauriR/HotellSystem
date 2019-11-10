@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="TOP_CENTER" hgap="25.0" prefHeight="378.0" prefWidth="600.0" vgap="25.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HotellTemplate.HotelWelcome">
+   <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" defaultButton="true" layoutX="206.0" layoutY="161.0" mnemonicParsing="false" text="Add reservation" textAlignment="CENTER" textOverrun="CENTER_WORD_ELLIPSIS" GridPane.rowIndex="2" />
+      <Button defaultButton="true" layoutX="194.0" layoutY="220.0" mnemonicParsing="false" text="Change reservation" textAlignment="CENTER" GridPane.rowIndex="3" />
+      <Button defaultButton="true" layoutX="198.0" layoutY="285.0" mnemonicParsing="false" text="Delete reservation" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" GridPane.rowIndex="4" />
+      <TextField alignment="CENTER" editable="false" layoutX="65.0" layoutY="46.0" prefHeight="45.0" prefWidth="457.0" style="-fx-background-color: #1234;" text="Welcome to the Hotel Management system">
+         <font>
+            <Font name="Arial Bold Italic" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
